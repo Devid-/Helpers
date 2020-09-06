@@ -1,0 +1,115 @@
+{
+    "defaultSeverity": "warning",
+    "rules": {
+        "member-access": false,
+        "member-ordering": [
+            true,
+            {
+                "order": [
+                    "static-field",
+                    "instance-field",
+                    "constructor",
+                    "instance-method",
+                    "public-instance-method",
+                    "private-instance-method"
+                ]
+            }
+        ],
+        "curly": true,
+        "no-any": false,
+        "no-inferrable-types": [
+            false
+        ],
+        "use-isnan": true,
+        "no-internal-module": true,
+        "no-var-requires": false,
+        "typedef": [
+            false
+        ],
+        "ban": false,
+        "forin": false,
+        "deprecation": true,
+        "label-position": true,
+        "no-arg": true,
+        "no-bitwise": true,
+        "no-conditional-assignment": true,
+        "no-string-throw": true,
+        "no-console": [
+            true,
+            "debug",
+            "info",
+            "time",
+            "timeEnd",
+            "trace"
+        ],
+        "array-type": [
+            true,
+            "array"
+        ],
+        "object-literal-key-quotes": [
+            false,
+            "always"
+        ],
+        "no-construct": true,
+        "arrow-return-shorthand": true,
+        "no-debugger": false,
+        "no-duplicate-variable": true,
+        "no-empty": false,
+        "no-eval": true,
+        "no-null-keyword": true,
+        "no-shadowed-variable": true,
+        "no-string-literal": false,
+        "no-switch-case-fall-through": true,
+        "no-unused-expression": true,
+        "no-unused-variable": false,
+        "no-use-before-declare": true,
+        "no-var-keyword": true,
+        "radix": true,
+        "switch-default": true,
+        "triple-equals": [
+            true,
+            "allow-null-check"
+        ],
+        "eofline": false,
+        "no-require-imports": false,
+        "encoding": true,
+        "completed-docs": [
+            true,
+            {
+                "enums": true,
+                "functions": {
+                    "visibilities": [
+                        "exported"
+                    ]
+                },
+                "methods": {
+                    "privacies": [
+                        "public"
+                    ],
+                    "visibilities": [
+                        "exported"
+                    ]
+                }
+            }
+        ],
+        "object-literal-sort-keys": false,
+        "class-name": true,
+        "comment-format": [
+            true,
+            "check-space"
+        ],
+        "ordered-imports": [
+            true
+        ],
+        "jsdoc-format": true,
+        "no-constructor-vars": false,
+        "variable-name": [
+            true,
+            "check-format",
+            "allow-leading-underscore",
+            "ban-keywords"
+        ],
+        "no-floating-promises": true,
+        "no-angle-bracket-type-assertion": false
+    }
+}
