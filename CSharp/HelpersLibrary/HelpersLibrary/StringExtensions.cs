@@ -1,6 +1,7 @@
 ﻿namespace HelpersLibrary
 {
     using System;
+    using System.Collections.Generic;
     using System.Globalization;
 
     public static class StringExtensions
@@ -48,6 +49,16 @@
         public static string JoinMultiline(this string[] values, string separator = "\r\n")
         {
             if (values != null && values.Length > 0)
+            {
+                return string.Join(separator, values);
+            }
+
+            return string.Empty;
+        }
+
+        public static string JoinMultiline(this IEnumerable<string> values, string separator = "\r\n")
+        {
+            if (values != null)
             {
                 return string.Join(separator, values);
             }
