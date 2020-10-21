@@ -1,4 +1,4 @@
-namespace HelpersLibrary
+namespace HelpersLibrary.Services
 {
     using System;
     using System.Globalization;
@@ -102,13 +102,6 @@ namespace HelpersLibrary
         public static Color? HexToColor(string hexColor)
         {
             if (string.IsNullOrWhiteSpace(hexColor))
-            {
-                return null;
-            }
-
-            hexColor = GetHex(hexColor.ToLower())?.Trim()?.TrimStart('#');
-
-            if (hexColor == null)
             {
                 return null;
             }

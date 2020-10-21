@@ -1,6 +1,7 @@
 namespace HelpersLibrary
 {
     using System.Windows.Media;
+    using Services;
 
     public static class ColorExtensions
     {

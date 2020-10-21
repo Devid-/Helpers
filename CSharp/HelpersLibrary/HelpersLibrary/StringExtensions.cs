@@ -10,7 +10,7 @@
         {
             return int.TryParse(value, NumberStyles.Any, CultureInfo.InvariantCulture, out int result) ? result : defaultValue;
         }
-
+        
         public static long ToLong(this string value, long defaultValue)
         {
             return long.TryParse(value, NumberStyles.Any, CultureInfo.InvariantCulture, out long result) ? result : defaultValue;
