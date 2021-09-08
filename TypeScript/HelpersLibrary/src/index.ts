@@ -1,1 +1,1 @@
-export { TypesHelpers } from './types.helpers';
+export { Helpers } from './helpers';
